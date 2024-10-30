@@ -1,28 +1,33 @@
 <h1>SQL Filters</h1>
 
-Test. Update in progress...
 
 <h2>Description</h2>
-The project is for an organization working to make their system more secure. It is my job to ensure the system is safe, investigate all potential security issues, and update employee computers as needed. The following steps provide examples of how I used SQL with filters to perform security-related tasks.
-<br>
-<br>
-  1) Retrieve after hours failed login attempts. There was a potential security incident that occurred after business hours (after 18:00). All after hours login attempts that failed need to be investigated.
-<br>
-<br>
-  2) Retrieve login attempts on specific dates. A suspicious event occurred on 2022-05-09. Any login activity that happened on 2022-05-09 or on the day before needs to be investigated.
-<br>
-<br>
-  3) Retrieve login attempts outside of Mexico. After investigating the organization’s data on login attempts, I believe there is an issue with the login attempts that occurred outside of Mexico. These login attempts should be investigated. 
-<br>
-<br>
-  4) Retrieve employees in Marketing. My team wants to update the computers for certain employees in the Marketing department. To do this, I have to get information on which employee machines to update.  
-<br>
-<br>
-  5) Retrieve employees in Finance or Sales. The machines for employees in the Finance and Sales departments also need to be updated. Since a different security update is needed, I have to get information on employees only from these two departments. 
-<br>
-<br>
-  6) Retrieve all employees not in IT. My team needs to make one more security update on employees who are not in the Information Technology department. To make the update, I first have to get information on these employees.
 
+#### Overview
+This project focuses on enhancing the security of an organization's systems. My role involves ensuring system safety, investigating potential security issues, and updating employee computers as necessary. The following steps illustrate how I utilized SQL with filters to perform various security-related tasks.
+
+#### Tasks Completed
+
+1. **Retrieve After-Hours Failed Login Attempts**:
+   - Investigated potential security incidents by retrieving all failed login attempts that occurred after business hours (after 18:00).
+
+2. **Retrieve Login Attempts on Specific Dates**:
+   - Analyzed login activity on 2022-05-09, as a suspicious event took place on this date. Any login attempts from this day or the preceding day were retrieved for investigation.
+
+3. **Retrieve Login Attempts Outside of Mexico**:
+   - Identified and investigated login attempts that originated from locations outside of Mexico, based on concerns about unauthorized access.
+
+4. **Retrieve Employees in Marketing**:
+   - Collected information on employees in the Marketing department to facilitate updates to their computers as part of a security initiative.
+
+5. **Retrieve Employees in Finance or Sales**:
+   - Gathered data on employees in the Finance and Sales departments to prepare for a different security update required for these teams.
+
+6. **Retrieve All Employees Not in IT**:
+   - Compiled a list of employees not in the Information Technology department to conduct a final security update for this group.
+
+#### Outcome
+This project effectively utilized SQL to filter and retrieve critical security information, enabling the organization to address vulnerabilities and implement necessary updates across various departments.
 
 
 <br />
